@@ -11,8 +11,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by alexander_roman on 25.07.16.
  */
 public class IpApi {
-    private static IpInterface mApi;
     private final static String URL = "http://ip-api.com";
+    private static IpInterface mApi;
 
     public static IpInterface getApi() {
         if (mApi == null) {

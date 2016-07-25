@@ -1,6 +1,30 @@
 apply plugin: 'com.android.library'
 apply plugin: 'jacoco-android'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'auster'
+
+    publishedGroupId = 'com.prokkypew'
+    libraryName = 'Auster'
+    artifact = 'auster'
+
+    libraryDescription = 'Simple lightweight MVP library for Android'
+
+    siteUrl = 'https://github.com/Prokky/Auster'
+    gitUrl = 'https://github.com/Prokky/Auster.git'
+
+    libraryVersion = '0.9.0'
+
+    developerId = 'prokky'
+    developerName = 'Alexander Roman'
+    developerEmail = 'prokky8@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -30,3 +54,6 @@ dependencies {
 
     compile 'com.android.support:appcompat-v7:23.4.0'
 }
+
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

@@ -14,11 +14,10 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 
 public class MainActivity extends MvpActivity<MainMvpPresenter> implements MainMvpView {
-    private ProgressDialog progressDialog;
-    private Unbinder unbinder;
-
     @BindView(R.id.ip_text)
     TextView ipTextView;
+    private ProgressDialog progressDialog;
+    private Unbinder unbinder;
 
     @OnClick(R.id.button_get_ip)
     void onGetIpClick() {
