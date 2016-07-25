@@ -22,10 +22,10 @@ public class MvpPresenter<V extends MvpView> {
     }
 
     @CallSuper
-    public void detachView() {
+    public void detachView(MvpView view) {
         final V prevView = this.mvpView;
 
-        if (prevView == mvpView) {
+        if (prevView == view) {
             this.mvpView = null;
         } else {
             throw new UnexpectedMvpViewException(mvpView);

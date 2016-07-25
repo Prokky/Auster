@@ -27,7 +27,7 @@ public abstract class MvpFragment<T extends MvpPresenter> extends Fragment imple
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        presenter.detachView();
+        presenter.detachView(this);
     }
 
     abstract protected int getFragmentLayout();

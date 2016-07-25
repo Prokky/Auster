@@ -16,7 +16,7 @@ public abstract class MvpActivity<T extends MvpPresenter> extends AppCompatActiv
 
     @Override
     protected void onDestroy() {
-        presenter.detachView();
+        presenter.detachView(this);
         super.onDestroy();
     }
 
