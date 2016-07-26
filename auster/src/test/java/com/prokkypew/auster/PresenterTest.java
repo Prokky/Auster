@@ -1,5 +1,7 @@
 package com.prokkypew.auster;
 
+import com.prokkypew.auster.utils.TestMvpView;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
