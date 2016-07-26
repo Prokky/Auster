@@ -9,6 +9,7 @@ android:
 
     - build-tools-23.0.3
     - android-23
+    - android-19
     # Support library
     - extra-android-support
     - extra-android-m2repository
