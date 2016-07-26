@@ -4,7 +4,7 @@ import com.prokkypew.auster.utils.TestFragment;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.robolectric.RobolectricGradleTestRunner;
+import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
 import org.robolectric.shadows.support.v4.SupportFragmentTestUtil;
 
@@ -14,8 +14,8 @@ import static org.junit.Assert.assertNull;
 /**
  * Created by alexander_roman on 26.07.16.
  */
-@RunWith(RobolectricGradleTestRunner.class)
-@Config(constants = BuildConfig.class, sdk = 19)
+@RunWith(RobolectricTestRunner.class)
+@Config(constants = BuildConfig.class, sdk = 23)
 public class FragmentTest {
 
     @Test
