@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/Prokky/Auster.svg?branch=master)](https://travis-ci.org/Prokky/Auster)
 [![codecov](https://codecov.io/gh/Prokky/Auster/branch/master/graph/badge.svg)](https://codecov.io/gh/Prokky/Auster)
 [ ![Download](https://api.bintray.com/packages/prokky/maven/auster/images/download.svg) ](https://bintray.com/prokky/maven/auster/_latestVersion)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Auster-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/4021)
+
 Simple lightweight MVP library for Android
 
 ##Usage
