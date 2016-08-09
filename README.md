@@ -36,7 +36,7 @@ public class MyMvpPresenter extends MvpPresenter<MyMvpView> {
             public void onResponse(Call<IpObject> call, Response<IpObject> response) {
                 checkViewAttached();
                 getMvpView().setProgress(false);
-                getMvpView().onIpLoaded(response.body().getText());
+                getMvpView().onLoad(response.body().getText());
             }
 
             @Override
