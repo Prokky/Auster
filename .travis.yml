@@ -8,7 +8,7 @@ android:
     - platform-tools
 
     - build-tools-25.0.2
-    - android-23
+    - android-25
     - android-19
     # Support library
     - extra-android-support
@@ -20,7 +20,7 @@ before_script:
     - "export JAVA_OPTS=-Xmx512m"
 
 script:
-    - ./gradlew build jacocoTestReport
+    - ./gradlew build jacocoTestReportDebug
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
