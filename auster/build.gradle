@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.vanniktech.android.junit.jacoco'
+apply from: 'jacoco.gradle'
 
 ext {
     bintrayRepo = 'maven'
